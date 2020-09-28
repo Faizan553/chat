@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body onload="get()">
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            
+            <div class="col-lg-3 white">
+                <i class="fas fa-user-circle"></i>
+                <span id="username" class="username"></span>
+            </div>
+        </div>
+<div class="row justify-content-center">
+    <div class="col-lg-3  chat white" id="chat">
+        
+    </div>
+    
+</div>
+<div class="row justify-content-center">
+    <div class="col-lg-3 white">
+        <input type="text" id="msg" class="msg">
+     <a href="#down">   <button onclick="send()" class="send">Send</button></a>
+    </div>
+</div>
+    </div>
+<script src="chat.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDK9FPq5AFZKhvAaA-ewjZaxP5pjRsd_r0",
+    authDomain: "chat-app-fdc4c.firebaseapp.com",
+    databaseURL: "https://chat-app-fdc4c.firebaseio.com",
+    projectId: "chat-app-fdc4c",
+    storageBucket: "chat-app-fdc4c.appspot.com",
+    messagingSenderId: "955740369153",
+    appId: "1:955740369153:web:37d7a443cfeceb2639ab00",
+    measurementId: "G-X1KYQ4SQWZ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

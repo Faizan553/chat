@@ -1,0 +1,79 @@
+body{
+    background-color: #EAECF8;
+}
+.input{
+    border: 2px solid lightgray !important;
+}
+.main{
+    border: 1px solid lightgray !important;
+    padding: 15px;
+}
+.right{
+    text-align: right !important;
+}
+.small{
+    font-size: 14px !important;
+}
+.facebook{
+    width: 100%;
+}
+.register{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.chat{
+    height: 500px !important;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    
+}
+.blue{
+    background-color: #4049FF;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+    
+}
+.top{
+    margin-top: -15px;
+}
+.grey{
+    background-color: #F2F2F2;
+    color:gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.p1{
+    margin-top: -15px;
+}
+.msg{
+    border-radius: 15px;
+    width: 75%;
+}
+.send{
+    background-color:#4049FF ;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #4049FF;
+    
+}
+.fa-user-circle{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.username{
+    font-size: 16px;
+}
+.white{
+    background-color: white;
+    
+}
+.top1{
+    margin-top: -15px;
+}
+.grey1{
+    /* background-color: #F2F2F2; */
+    font-size: 11px;
+}
